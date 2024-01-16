@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">pregnantPro</string>
+    <string name="informacion_personal">Información Personal</string>
+    <string name="planificacion_citas"> Planificación Citas</string>
+    <string name="evolucion">Evolución</string>
+    <string name="resultados">Resultados</string>
+    <string name="ecografias">Ecografías</string>
+    <string name="recomendaciones">Consejos</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+
+    <string name="email">Correo electrónico</string>
+    <string name="passwd">Contraseña</string>
+    <string name="update">Actualizar</string>
+    <string name="signUp">Registrarse</string>
+    <string name="login">Acceder</string>
+
+
+    <string name="nombre_paciente">Nombre</string>
+    <string name="apellido">Apellidos</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="numero_seguridad_social">Número Seguridad Social</string>
+    <string name="semana_actual">Semana Actual</string>
+    <string name="fecha_parto_prevista">Fecha Parto Prevista</string>
+    <string name="name">Nombre</string>
+    <string name="surName">Apellido</string>
+    <string name="birthdate">Fecha Nacimiento</string>
+    <string name="NumeroSeguridadSocial">Numero Seguridad Social</string>
+    <string name="semanaActual">Semana Actual</string>
+    <string name="fechaPartoPrevista">Fecha Parto Prevista</string>
+    <string name="phone">Teléfono</string>
+    <string name="atras">Atras\n</string>
+    <string name="aceptar">Aceptar</string>
+
+    <string name="pruebas_sandre">Pruebas de Sangre</string>
+    <string name="control_infecciones">Infección</string>
+    <string name="ultrasonido">Ultrasonido</string>
+    <string name="análisis_de_orina">Análisis de Orina</string>
+    <string name="funcion_renal_hepatica">Función Renal y Hepática</string>
+    <string name="titulo_Resultados">Resultados</string>
+    <string name="hoy_evolucion">Hoy</string>
+    <string name="reloj">9:41</string>
+    <string name="guia_tamaños">Guía Tamaños</string>
+    <string name="abrir_video">Abrir video</string>
+    <string name="hola">Hola, Martina</string>
+
+
+    <string name="select_tipo">Seleccionar Tipo de Cita</string>
+    <string name="hint_fecha">Fecha de la Cita</string>
+    <string name="hint_hora">Hora de la Cita</string>
+    <string name="boton_seleccionar_fecha">Seleccionar Fecha</string>
+    <string name="guardar_cita">Guardar Cita</string>
+    <string name="ver_citas">Ver Citas</string>
+
+
+    <!-- Otras cadenas existentes -->
+
+    <!-- Títulos de los botones en ResultadosPacienteActivity -->
+    <string name="volver">Volver</string>
+    <string name="analisis_orina">Análisis de Orina</string>
+    <string name="infeccion">Infección</string>
+    <string name="analisis_sangre">Análisis de Sangre</string>
+    <string name="rena_hepatica">Rena Hepática</string>
+
+    <string name="btnInfoPersonalGinecologa">Información Personal </string>
+    <string name="btnPlanificacionCitasGinecologa">Planificación Citas </string>
+    <string name="btnResultadosGinecologa">Resultados </string>
+
+    <string name="Consulta">Consulta </string>
+    <string name="Birthday">Fecha Nacimiento </string>
+    <string name="surname">Apellido </string>
+    <string name="descripcion_receta_ginecologo">Descripcion Receta Ginecologo </string>
+
+
+
+
+</resources>

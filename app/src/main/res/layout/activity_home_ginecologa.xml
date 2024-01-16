@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context=".ginecologa.HomeGinecologaActivity">
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="PregnantPro+"
+        android:textColor="?attr/colorPrimaryVariant"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/btnInformacionPersonalGinecologa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="192dp"
+        android:layout_height="114dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="21dp"
+        android:layout_weight="1"
+        android:background="@color/colorBtn"
+        android:fontFamily="@font/basic"
+        android:text="@string/informacion_personal"
+        android:textSize="@dimen/text_size_button"
+        app:icon="@drawable/ic_informacion_personal"
+        app:iconGravity="textTop"
+        app:iconSize="@dimen/icon_size"
+        app:layout_constraintBottom_toTopOf="@+id/btnResultadosGinecologa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appNameTextView" />
+
+    <Button
+        android:id="@+id/btnResultadosGinecologa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="198dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="115dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/basic"
+        android:text="RESULTADOS"
+        android:textSize="@dimen/text_size_button"
+        app:icon="@drawable/ic_resultados"
+        app:iconGravity="textTop"
+        app:iconSize="@dimen/icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInformacionPersonalGinecologa" />
+
+    <Button
+        android:id="@+id/btnRecetasGine"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="196dp"
+        android:layout_height="119dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="210dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/basic"
+        android:text="RECETAS"
+        android:textSize="@dimen/text_size_button"
+        app:icon="@drawable/receta"
+        app:iconGravity="textTop"
+        app:iconSize="@dimen/icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResultadosGinecologa" />
+
+    <ImageButton
+        android:id="@+id/btnVolver"
+        android:layout_width="81dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="554dp"
+        android:backgroundTint="@color/colorFondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_cerrar_sesion"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

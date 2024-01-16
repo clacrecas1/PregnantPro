@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "829877161573",
+    "project_id": "pregnantpro23",
+    "storage_bucket": "pregnantpro23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829877161573:android:327c895396c907dfba408c",
+        "android_client_info": {
+          "package_name": "com.example.pregnantpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCryP6hblOOe1MbhLLBR7YnqAMpl0Yb6OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

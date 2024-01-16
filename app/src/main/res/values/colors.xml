@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#fad2e0</color>
+    <color name="primaryVariant">#c61449</color>
+
+    <color name="secondary">#d2faec</color>
+    <color name="secondaryVariant">#629276</color>
+
+    <color name="colorFondo">#FCE4EC</color>
+    <color name="colorBtn">#E3F2FD</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="weekImageBackground">#E0E0E0</color>
+    <color name="weekTitleColor">#c61449</color>
+    <color name="weekDescriptionColor">#FF000000</color>
+
+</resources>

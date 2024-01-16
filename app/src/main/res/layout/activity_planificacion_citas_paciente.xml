@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="paciente.PlanificacionCitasPacienteActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planificación de Citas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Spinner para seleccionar el tipo de cita -->
+    <Spinner
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/select_tipo"/>
+
+    <!-- Campo de texto para la fecha -->
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/hint_fecha"
+        android:focusable="false"
+        android:inputType="none"/>
+
+    <!-- Campo de texto para la hora -->
+    <EditText
+        android:id="@+id/etHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/hint_hora"
+        android:inputType="text"/>
+
+    <!-- Agrega esto en tu archivo activity_planificacion_citas_paciente.xml -->
+    <TextView
+        android:id="@+id/etiqueta_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+
+    <!-- Botones Guardar Cita y Ver Citas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Botón Guardar Cita -->
+        <Button
+            android:id="@+id/btnGuardarCita"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/guardar_cita"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"/>
+
+
+
+        <!-- Botón Ver Citas -->
+        <Button
+            android:id="@+id/btnVerMisCitas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ver_citas"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+
+</LinearLayout>

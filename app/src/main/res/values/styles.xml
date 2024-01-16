@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SeekBarStyle" parent="Widget.AppCompat.SeekBar.Discrete">
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+</resources>

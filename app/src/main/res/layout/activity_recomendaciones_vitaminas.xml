@@ -1,0 +1,38 @@
+<!-- activity_recomendaciones_vitaminas.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecomendacionesVitaminas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_recomendacion_vitaminas" />
+
+    <!-- Añade el ImageView para el icono aquí -->
+    <ImageView
+        android:id="@+id/ivIconoRecomendacionesVitaminas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/recyclerViewRecomendacionesVitaminas"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_vitaminas" />
+
+    <!-- VideoView para el video de vitaminas -->
+    <VideoView
+        android:id="@+id/videoViewVitaminas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerViewRecomendacionesVitaminas"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
+

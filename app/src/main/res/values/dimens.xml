@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_size">40sp</dimen>
+    <dimen name="icon_size2">50sp</dimen>
+    <dimen name="text_size_button">20sp</dimen>
+
+    <dimen name="text_size">28sp</dimen>
+    <dimen name="text_size2">24sp</dimen>
+    <dimen name="title_size">60sp</dimen>
+    <dimen name="subtitle_size">40sp</dimen>
+</resources>
